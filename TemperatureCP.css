@@ -1,0 +1,60 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(244, 239, 239);
+}
+h1{
+    border-style: groove;
+    border-radius: 5px;
+    border-color: hsla(0, 43%, 42%, 0.881);
+    background-color: hwb(70 15% 20% / 0.884);
+    color: rgb(123, 72, 33);
+}
+form{
+    background-color: rgb(132, 164, 44);
+    text-align: center;
+    border-style: outset;
+    border-color: rgb(49, 100, 35);
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+#textBox{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    padding: 10px;
+    
+    text-align: center;
+    font-size: 2em;
+    border-width: 3px;
+    border-color: black;
+    border-style: bold;
+    border-radius: 10px;
+    background-color: hsla(180, 71%, 41%, 0.5);
+    
+}
+label{
+    color:hsl(222, 62%, 23%);
+    font-size:1.5em;
+    font-weight: bold;
+}
+button{
+    margin-top: 20px;
+    color: rgb(92, 187, 190);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+button:hover{
+    background-color: hsla(0, 50%, 44%, 0.785);
+}
+
+#result{
+    font-size: 2em;
+}
